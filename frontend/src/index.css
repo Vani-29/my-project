@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+  .card {
+  background: white;
+  color: #0f2027;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+input, select {
+  width: 90%;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+   background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0072ff;
+   opacity: 0.8;
+}
+h3{
+  color:black;
+}
+p{
+  color:darkcyan;
+}
+h2 {
+  color: black;
+  margin-bottom: 15px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* HEADER */
+th {
+  position: sticky;
+  top: 0;
+  background: #0f172a;
+  color: rgb(241, 240, 240);
+  padding: 12px;
+  text-align: center;
+}
+
+/* ROW */
+td {
+  padding: 10px;
+  text-align: center;
+}
+tr{
+  color: #0f172a;
+  }
+/* HOVER EFFECT */
+tr:hover {
+  background: #cae4fd;
+  transition: 0.2s;
+  color: #f95047;
+}
+
+/* INPUT INSIDE TABLE */
+td input {
+  width: 70px;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
